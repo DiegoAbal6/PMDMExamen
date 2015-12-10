@@ -64,7 +64,7 @@ public class DriverListActivity extends AppCompatActivity
             // large-screen layouts (res/values-large and
             // res/values-sw600dp). If this view is present, then the
             // activity should be in two-pane mode.
-            mTwoPane = true; 
+            mTwoPane = true;
 
             // In two-pane mode, list items should be given the
             // 'activated' state when touched.
