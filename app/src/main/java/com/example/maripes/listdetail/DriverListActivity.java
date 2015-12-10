@@ -73,7 +73,7 @@ public class DriverListActivity extends AppCompatActivity
                     .findFragmentById(R.id.driver_list))
                     .setActivateOnItemClick(true);
         }
-
+ 
         // TODO: If exposing deep links into your app, handle intents here.
     }
 
