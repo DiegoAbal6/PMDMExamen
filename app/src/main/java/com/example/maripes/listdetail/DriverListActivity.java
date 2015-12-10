@@ -42,7 +42,7 @@ public class DriverListActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_driver_app_bar);
-        //1 Definimos el layout a cargar por parte de la actividad
+        //Definimos el layout a cargar por parte de la actividad
 
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -58,7 +58,7 @@ public class DriverListActivity extends AppCompatActivity
             }
         });
 
-        //3. Si hay panel de la derecha (landscape), pongo boolean a true y cargo el fragment de la lista (izq) o master
+
         if (findViewById(R.id.driver_detail_container) != null) {
             // The detail container view will be present only in the
             // large-screen layouts (res/values-large and
